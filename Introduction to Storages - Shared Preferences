@@ -1,0 +1,54 @@
+0:022 secondsAuto desktop.
+0:3636 secondsUh last for
+0:4949 secondsslides. Okay.
+1:041 minute, 4 secondsOkay.
+1:251 minute, 25 secondsOkay. So, let's jump to the next topic uh that is uh stoages.
+1:401 minute, 40 secondsOkay. So environment is first Android has multiple types of ways to store
+1:481 minute, 48 secondsdata. But make sure understand one thing which is very important. Android application.
+2:242 minutes, 24 secondsaddition.
+2:372 minutes, 37 secondsOkay. So,
+2:412 minutes, 41 secondslet's say multiple can
+2:522 minutes, 52 secondsOkay. So, uh multiple store. So, we can store our data using the share preferences. Uh we can store our data in
+3:013 minutes, 1 secondinternal files in the stoages. Uh we can also do external service to that like uh
+3:123 minutes, 12 secondshello.
+3:283 minutes, 28 secondsSo I hope it will work for the remaining time of 30 minutes. Okay. So okay
+3:403 minutes, 40 secondslocal storage in the form of key value.
+4:014 minutes, 1 secondThe purpose is also similar.
+4:184 minutes, 18 secondsYou can also create databases and we can also use the method
+4:274 minutes, 27 secondsfor example uh Firebase, Mango or any other database which is stored on server. Even you can also create your
+4:344 minutes, 34 secondsown server on internet and scoop up like SQL SQL server etc etc etc. Okay.
+4:454 minutes, 45 secondsSo guys,
+4:574 minutes, 57 secondslet's talk about preferences.
+5:055 minutes, 5 secondsUh the purpose is
+5:135 minutes, 13 secondsuh
+5:295 minutes, 29 secondscan you guys start now?
+5:415 minutes, 41 secondsNot clear.
+5:465 minutes, 46 secondsOkay. Good. Okay. So, uh let's jump to the topic.
+5:555 minutes, 55 secondsFor example, let's say if I have to store my data for the login. For example, let's say
+6:026 minutes, 2 secondsSo what I want ideally is to store their users data and use that data for the
+6:106 minutes, 10 secondslogin. For example, similar structure what Facebook, WhatsApp, LinkedIn and all other social applications do. They store your login information and
+6:196 minutes, 19 secondswhenever you try to open the application they directly use your login credentials to log you in directly in your application. So they don't ask you the username and password again and again.
+6:296 minutes, 29 secondsThey store your information internally so that they can reuse the information. Obviously username or passwordage.
+6:546 minutes, 54 seconds[clears throat]
+7:067 minutes, 6 secondslogin [clears throat] clear.
+7:167 minutes, 16 secondsOkay. So that's what we going to do today. [clears throat] Local storage.
+7:237 minutes, 23 secondsIt's quite quite easy. We just have a few steps.
+7:307 minutes, 30 secondshardly three or four lines are there to write store the data in local stoages and fetch data from local stoages. Okay,
+7:417 minutes, 41 secondshow you can do it? Uh it's very easy.
+7:437 minutes, 43 secondsYou just need to write the uh let's say share preferences.
+7:487 minutes, 48 secondsOkay, share preferences data and so on and so on and so on. Okay, let me jump to the part.
+8:018 minutes, 1 secondOkay,
+8:118 minutes, 11 secondsnow for this one I'm going to make sureitable.
+8:188 minutes, 18 secondsSo we are going to create some variables on top here. Okay. So let's say uh well uh name let's say username
+8:278 minutes, 27 secondsset username is equal to remember mutable state of or initially empty.
+9:109 minutes, 10 secondsAre you okay?
+9:439 minutes, 43 secondsOkay.
+9:499 minutes, 49 secondsIs it
+13:0413 minutes, 4 secondsOkay. Okay.
+13:3913 minutes, 39 secondsIt's
+14:2314 minutes, 23 secondsDon't
+14:3314 minutes, 33 secondsget
+15:3815 minutes, 38 secondsSorry.
+18:1318 minutes, 13 secondsYeah. What?
+18:3818 minutes, 38 secondsHeat. Heat.
+25:2525 minutes, 25 secondsOkay.
