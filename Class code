@@ -1,0 +1,111 @@
+@Composable
+fun Welcome(modifier: Modifier = Modifier, username:String){
+    Column(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("Welcome : ${username}", fontSize = 34.sp)
+    }
+}
+
+@Composable
+fun Login(modifier: Modifier = Modifier, context: Context = LocalContext.current, prefs: SharedPreferences){
+    val (username, setUsername) = remember { mutableStateOf("") }
+    val (password, setpassword) = remember { mutableStateOf("") }
+
+    Column(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){
+        Text("Login Screen", fontSize = 48.sp)
+        Spacer(Modifier.height(16.dp))
+
+        OutlinedTextField(value = username, onValueChange = {setUsername(it)}, placeholder = {Text("Username")})
+        Spacer(Modifier.height(16.dp))
+
+        OutlinedTextField(
+            value = password, onValueChange = {setpassword(it)},
+            placeholder = {Text("Password")},
+            visualTransformation = PasswordVisualTransformation())
+        Spacer(Modifier.height(16.dp))
+
+        Button (onClick = {
+            val editor = prefs.edit()
+            editor.putString("username", username)
+            editor.putString("password", password)
+            editor.commit()
+
+        }) {
+            Text("Login")
+        }
+
+        TextButton(onClick = {
+            //create intent with data (source, destination)
+            val intent = Intent(context, SignupActivity::class.java)
+            //put data in the intent
+            intent.putExtra("name", "Nisar Ahmed")
+            //let the os start the activity
+            context.startActivity(intent)
+        }) {
+            Text("Not a member? Sign Up!")
+        }
+
+        TextButton(onClick = {
+            //put action and data of the component
+            val camera_intent = Intent(Intent.ACTION_VIEW)
+
+            val chooser = Intent.createChooser(camera_intent, "Choose one application")
+            context.startActivity(chooser)
+        }){
+            Text("Open Camera")
+        }
+
+    }
+}
+
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
+
+@Composable
+fun SignUp(modifier: Modifier = Modifier, context: SignupActivity, username : String){
+    Column(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){
+        Text("SignUp Screen", fontSize = 44.sp)
+        Spacer(Modifier.height(16.dp))
+
+        OutlinedTextField(value = "", onValueChange = {}, placeholder = {Text(username)})
+        Spacer(Modifier.height(16.dp))
+
+        OutlinedTextField(
+            value = "", onValueChange = {},
+            placeholder = {Text("Password")},
+            visualTransformation = PasswordVisualTransformation())
+        Spacer(Modifier.height(16.dp))
+
+        OutlinedTextField(
+            value = "", onValueChange = {},
+            placeholder = {Text("Confirm Password")},
+            visualTransformation = PasswordVisualTransformation())
+        Spacer(Modifier.height(16.dp))
+
+        TextButton(onClick = {
+            val intent = Intent(context, MainActivity::class.java)
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            context.startActivity(intent)
+        }) {
+            Text("Not a member? Sign Up!")
+        }
+
+    }
+}
