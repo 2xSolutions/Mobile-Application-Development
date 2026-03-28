@@ -1,0 +1,126 @@
+0:00Okay, perfect. Uh, let's see.
+0:1919 secondsproduction.
+0:2424 secondsThat's perfect. Uh okay guys. Uh so let's jump to the topic. Uh let me start sharing my screen. Uh
+0:3232 secondsthat is my video so I can also share with you guys. Okay.
+0:3939 secondsUh guys, is it guys?
+0:4747 secondsHello So important.
+1:021 minute, 2 secondsSo make sure
+1:181 minute, 18 secondsOkay.
+1:331 minute, 33 secondsOkay.
+1:361 minute, 36 secondsOkay. Uh so here we are we discussing about the intent lastation.
+1:431 minute, 43 secondsSo today we are going to focus on the another topic of theation that is composable.
+1:531 minute, 53 secondsNow
+2:052 minutes, 5 secondsremember we have discussed with the uh background
+2:172 minutes, 17 secondsfor example let's say we have two components let's say this is component one and this is component number And we want to create some communication
+2:262 minutes, 26 secondsbetween them. That communication can be anything. For example, we want that component to run uh we want that component to run with our data or maybe
+2:342 minutes, 34 secondswe just want that component to start over or anything. For example, we want some data from that component anything.
+2:402 minutes, 40 secondsSo activity A wants to communicate with activity B or a component A wants to communicate with component B. uh in
+2:492 minutes, 49 secondsAndroid communication between two components is not possible without Android operating system itself is involved. So let's say like component A
+2:582 minutes, 58 secondswants to communicate with component of BB it has to invol operating system in between. So what we do we actually send
+3:063 minutes, 6 secondsour intent with our required uh let's say uh information what we want or what we want to share in that intent and that
+3:153 minutes, 15 secondsintent actually being sent to operating system where you can see we just send that in to operating system. Now based on that intent and the information which
+3:233 minutes, 23 secondswe have provided in the intent entire operating system decides which component will receive that intent and uh what
+3:323 minutes, 32 secondsthat component will do that other component will be started or whether the communication will be background communication or anything else. For
+3:403 minutes, 40 secondsexample, let's say you want to start another activity within your application and that operating system will be that one. uh let's say you want to open
+3:483 minutes, 48 secondsanother application which is in your mobile phone and your operating system will do that for you. So in other words we are not doing anything we are just
+3:553 minutes, 55 secondssending a request to operating system and operating system will perform a request.
+4:164 minutes, 16 secondsMake sure it's possible.
+4:284 minutes, 28 secondsWindows I don't know why but it's sometimes crashing the components right now understanding
+4:364 minutes, 36 secondsthe topics right now rather than waiting for the video to be uploaded I'll try
+4:434 minutes, 43 secondsto make sure In case
+5:125 minutes, 12 secondsuh let's discuss about the types of things. So we have two types of income uh that one is actually explicit internal another and another one is
+5:195 minutes, 19 secondsimplicit in uh the difference in actually both of these in case are used to open different components. The
+5:275 minutes, 27 secondsdifference lies in between the components existence and uh where that component actually exits. Okay. So let's
+5:345 minutes, 34 secondssay it's the company that exists within my application. I have created my application and within my application I have explained different components and
+5:425 minutes, 42 secondslet's say we want to communicate with one of those components. So obviously if I have created a component I know the details about the component for example
+5:505 minutes, 50 secondsthe name of application the package name of that uh application the name of activity or any other component which is
+5:575 minutes, 57 secondsexisting in my application. So the details of the destination is known to me. So if I know the destination, if I
+6:056 minutes, 5 secondsknow the dependent of the destination, I can simply use explicit and explicitly define uh what will be my destination
+6:136 minutes, 13 secondscomponent. So if the destination component is known and we know the details of the destination component, we are going to use the explicit intent and
+6:226 minutes, 22 secondsrather uh implicit in terms depend on where we don't know about the destination component. uh in real scenario it's not about only knowing
+6:306 minutes, 30 secondsit's also about where the component exists to whether the component is resides inside the application or outside the application. So if the
+6:376 minutes, 37 secondscomponent is outside the application uh it means it's another application or it's another service which is running uh
+6:456 minutes, 45 secondsit's another broadcast which is running you it's not what your application has created but it's another application's
+6:526 minutes, 52 secondsdata and you want to communicate with that. So if you want to communicate with that one you have to use implicit steps of okay because we can't communicate
+7:017 minutes, 1 secondwith other application directly in the operating system channel for communication. So let's say if I have to start I have to tell operating system
+7:087 minutes, 8 secondsokay go and start that application and we are going to pass that data as well for let's say uh I have to open uh
+7:177 minutes, 17 secondsbrowser a link in the browser. So I have written that link in C in the intent and what I'm going to do I'm going to pass that in inside the uh pass and drop it
+7:267 minutes, 26 secondsin the string and operating system will look okay what type of data I have received uh which action I have to take which application I have to start okay
+7:347 minutes, 34 secondsso it's browser with this data what that will do it will start the activity which is browser activity and pass that data
+7:427 minutes, 42 secondsto that activity and that activity will receive data and load the browser URL uh based on the data Okay. So that's how it
+7:517 minutes, 51 secondsruns and ultimately means you are just going to pass the intent to operating system and the operating system will decide which activity to run or which
+7:587 minutes, 58 secondsapplication to run or which component to run and pass that in as well. Okay?
+8:078 minutes, 7 secondsAny questions?
+8:148 minutes, 14 secondsSo if there are no questions, I'm going to jump into book. Okay.
+8:248 minutes, 24 secondsOkay. Uh so previously uh as you can see many screens uh just to test it out. Uh
+8:318 minutes, 31 secondsbut look uh the application got crashed uh and I couldn't call all these things.
+8:388 minutes, 38 secondsUh I hope you guys know how to create the uh activities. Do you have an idea how to create an XP activity?
+8:488 minutes, 48 secondsNo, it's not uh it's not uh created
+9:069 minutes, 6 secondsactivity. Okay. So, but depends on what type of activity you are creating. So if you just need a simple activity for the layout based data application for the
+9:159 minutes, 15 secondsexternal data application you can go ahead and create a new application any activity from here all these activities are layout based where you are going to
+9:239 minutes, 23 secondscode your layout experiment rather than uh let's say uh compose directory so it's not composing okay so if you need a
+9:329 minutes, 32 secondscompose activity where you're going to create composable and so on then you can jump to your compose and here you can see uh you I have this uh MP activity
+9:419 minutes, 41 secondsand when you create on MP activity it will create another sign like this. For example, this is my in first uh activity
+9:489 minutes, 48 secondswhich came with my project and this is second which I have created right now which is sign of activity.
+9:559 minutes, 55 secondsOkay. So this is an activity. Now what is actually an activity? Now activity is actually one of the Android building blocks. I can say uh components of
+10:0410 minutes, 4 secondsAndroid. We have four components of Android. activities, services, uh broadcast receiver and content providers
+10:1210 minutes, 12 secondsand activities are the in standalone screens for you which will going to handle the screens and layouts UI data
+10:2010 minutes, 20 secondswhich will be represented on your screen. So if you have an screen, you have an activity at least one for
+10:2610 minutes, 26 secondsexample uh as the recent API or compose work it needs at least one activity as the uh you can say placeholder for
+10:3610 minutes, 36 secondsdisplays to be shown on my screen. Uh so it creates one placeholder and activity creates a placeholder uh where we use
+10:4310 minutes, 43 secondscomposable random UIs. So one UI comes here and just score and then another UI comes and it goes. Okay. But previously
+10:5210 minutes, 52 secondswhen we had no Android composed compos multiple activities to handle UI.
+11:0011 minutesOkay. So had activity one for UI one activity 2 for UI 2 and activity for UI3. Okay. Unless in analog we are using
+11:0811 minutes, 8 secondsfragments but we are not let's forget about the fragments. We are not talking about fragments. Okay. Clear guys.
+11:1911 minutes, 19 secondsuh so for the task today I'm going to create two composables one uh actually two uh composables in two different
+11:2611 minutes, 26 secondsactivities okay so in my main activity I'm going to create the uh login composer uh this composer will be responsible to create a login list for
+11:3511 minutes, 35 secondsme and then I'll have a this signup composible where I'm going to create this signup screen so in the login screen I will have this login uh text
+11:4411 minutes, 44 secondsbox password for login and then a button and similarly in sign up I will have similar structure but with the two uh
+11:5111 minutes, 51 secondspasswords of for number one for password another password okay so let's try to create a layout I'm hoping everybody
+11:5911 minutes, 59 secondsknows how to create a layout uh because I'm going to code quite fast and I'm hoping you can follow me as well okay uh so let's say column uh in column uh I
+12:0812 minutes, 8 secondswant the layout to be in the center of my screen so uh first of all I'm going to make sure that column has full size.
+12:1512 minutes, 15 secondsSo modifier is equal to modifier uh uh fill max size and similarly I'll make
+12:2312 minutes, 23 secondssure that I have that vertical arrangement
+12:3112 minutes, 31 secondshaving that center so that all elements can be vertically center. Similarly I also want to make sure that horizontal
+12:3812 minutes, 38 secondsalignment is also center uh but horizontally. Okay. So now all these things are centered. This is what I'm going to put that will always be the center of H3. Uh let's put the text.
+12:4912 minutes, 49 secondsLet's say log on the screen and put some text files. Uh let's say 54.
+12:5612 minutes, 56 secondsUh I want also want to make sure that enter. Uh after that I want to add some space. Uh space. Uh here I'm going to put a modifier modifier dot uh height.
+13:0913 minutes, 9 secondsSo let's say it is 16.
+13:1613 minutes, 16 secondsOkay. Uh let's I'm going to create a text field here. Uh let's say uh text field
+13:2313 minutes, 23 secondsuh let's say text field actually not simple text. I'm going to create outline text field.
+13:2913 minutes, 29 secondsUh simple text field and outline text field has one difference. out is actually quite popular right now which gives you the uh area to write the uh
+13:3813 minutes, 38 secondsplaceholders and so on. It looks good uh right now. So I'm going to use that one.
+13:4413 minutes, 44 secondsOkay. So actually empty I'm not going to put any value and let's say handle and change uh going
+13:5213 minutes, 52 secondsto put as well just to move from screen to another screen and also come back to that
+14:0014 minutesscreen. Uh so uh finally uh I have here some placeholder placeholder should have text that let's
+14:0814 minutes, 8 secondssay username. Okay. So initially I'm going to ask usern uh and let's copy this one.
+14:1814 minutes, 18 secondsOkay. Next I should have some password.
+14:2514 minutes, 25 secondsuh to hide the password we can also add some visual uh styling let's say
+14:3614 minutes, 36 secondsvisual transformation dot
+14:5814 minutes, 58 secondsOkay.
+15:1015 minutes, 10 secondsSo we want some transformation which will be password. So click on password.
+15:1515 minutes, 15 secondsUh what it will do it will convert my text into the uh that star base here like you guys know that prototype of
+15:2315 minutes, 23 secondsstructure and once it run button to make sure I'm going to move from here to the
+15:2915 minutes, 29 secondsscreen. So let's write a text button uh on click. I'm going to write some code after I click. So let's write a
+15:3815 minutes, 38 secondstext or let's say uh not commander.
+15:4415 minutes, 44 secondsOkay. Uh sign up. Okay.
+15:5115 minutes, 51 secondsLet me show you how this looks like. Let me type my screen to let you know how you
+16:0516 minutes, 5 secondsuh any question.
+16:2016 minutes, 20 secondsI have to move my daughter.
+16:4516 minutes, 45 secondsOkay. So, it's connected now. Uh let's start running this application in the device. Uh device.
+16:5816 minutes, 58 secondsOkay. So, let's put this
+17:1517 minutes, 15 secondsOkay. So,
+17:2617 minutes, 26 secondsheader screen.
+18:0718 minutes, 7 secondsHeat. Heat.
+18:4318 minutes, 43 secondsOkay. Back up.
+19:0819 minutes, 8 secondsWhat happened?
+19:2019 minutes, 20 secondsLet's go.
+19:5619 minutes, 56 secondsHeat. Heat.
+20:1620 minutes, 16 secondsLet's
+20:2820 minutes, 28 secondskeep going.
+20:4420 minutes, 44 secondsOkay.
+21:5121 minutes, 51 secondsI know Power
+22:4122 minutes, 41 secondsOkay. Let's go.
+23:0723 minutes, 7 secondsHeat. Heat.
+23:4223 minutes, 42 secondsSpider.
+
